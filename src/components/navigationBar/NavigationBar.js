@@ -14,7 +14,7 @@ function NavigationBar() {
     }
 
   return (
-    <div id='home' >
+    <div >
         <Navbar className='navigation_container'  expand='md' >
             <Navbar.Brand href='#home'>Juan Gomez</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav'/>

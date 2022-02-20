@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
 .navigation_container {
     background-color: var(--nav-color);
+    font-family: 'Skranji', cursive;
 }
 
 /* !important necessary to overwrite bootstrap's css */

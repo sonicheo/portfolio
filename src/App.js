@@ -1,13 +1,18 @@
 import './App.css';
-import NavigationBar from './components/navigationBar/NavigationBar';
-import HomeParticles from './components/reactParticals/HomeParticles';
+import AboutMe from './views/aboutMe/AboutMe';
+import Home from './views/home/Home';
+import Portfolio from './views/portfolio/Portfolio';
+import Technology from './views/technologies/Technology';
+
 
 
 function App() {
   return (
     <div className="App">
-        <NavigationBar/>
-        <HomeParticles/>
+        <Home/>
+        <AboutMe/>
+        <Technology/>
+        <Portfolio/>
     </div>
   );
 }
