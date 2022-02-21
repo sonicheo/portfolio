@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+.modal{
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Skranji', cursive;
+}
+
+.modal-header h1{
+    font-size: 2rem;
+}
+
+.modal-body p{
+    font-size: 1rem;
+}
+
+.modal img{
+    width: 25rem;
+}

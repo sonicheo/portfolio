@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+
 .container{
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem;
+    font-family: 'Skranji', cursive;
 }
 
 .header_container h1{
@@ -31,6 +35,11 @@
     background-color: aliceblue;
 }
 
+.tech_card:hover{
+    background-color: var(--font-color-hover);
+    transform: scale(1.05);
+}
+
 
 .tech_card span{
     font-size: 2rem;
@@ -41,3 +50,4 @@
     height: 70px;
     border-radius: 50%;
 }
+
