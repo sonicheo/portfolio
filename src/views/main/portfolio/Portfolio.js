@@ -35,7 +35,7 @@ function Portfolio() {
                     <Image src={data.image}/>
                 </Modal.Body>
                 <Modal.Footer>
-                    <a style={{marginRight: "auto"}} href={data.link}>{data.link ? "Visit Site": "In Progress " }</a>
+                    <a style={{marginRight: "auto"}} href={data.link} target='_blank' >{data.link ? "Visit Site": "In Progress " }</a>
                     <p>Technologies used: {data.tools}</p>
                 </Modal.Footer>
             </Modal>
