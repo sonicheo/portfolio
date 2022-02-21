@@ -2,7 +2,7 @@ import scroll from '../images/portfolioImages/infinite_scroll.png'
 import inPicture from '../images/portfolioImages/pictureInPicture.png'
 import quote from '../images/portfolioImages/quote_generator.png'
 import oldSite from '../images/portfolioImages/thisSite.png'
-import yhm from '../images/portfolioImages/YHM.PNG'
+import yhm from '../images/portfolioImages/YHM.png'
 import newSite from '../images/portfolioImages/newSite.png'
 
 
