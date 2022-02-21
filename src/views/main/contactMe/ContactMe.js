@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './contactMe.module.css'
-import { navigationLinks } from '../../helpers/navigationLinks'
+import { navigationLinks } from '../../../helpers/navigationLinks'
 
 function ContactMe() {
 
