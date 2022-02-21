@@ -1,0 +1,26 @@
+.container{
+    background-color: var(--nav-color);
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.contact_me_data{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.contact_me_data a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact_me_data a:hover{
+    color: var(--light-color);
+}
+
+.copyright p{
+    text-align: center;
+}

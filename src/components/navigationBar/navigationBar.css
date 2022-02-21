@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+.navigation_container {
+    background-color: var(--nav-color);
+    font-family: 'Skranji', cursive;
+}
+
+/* !important necessary to overwrite bootstrap's css */
+
+.navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 1rem;
+    border-color: none; 
+}
+
+.navbar-light .navbar-brand{
+    color: var(--font-color) !important;
+    margin-left: 1rem;
+}
+
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--font-color) !important;
+}
+
+.links{
+    margin: 0 1rem;
+}
+    .links a:hover{
+        background-color: var(--font-color-hover);
+    }
+
