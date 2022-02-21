@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import style from './portfolio.module.css'
-import { portfolioData } from '../../helpers/portfolioData'
+import { portfolioData } from '../../../helpers/portfolioData'
 import { Button, Container } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'

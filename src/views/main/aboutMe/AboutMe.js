@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './aboutMe.module.css'
-import juanImage from '../../images/Juan.png'
+import juanImage from '../../../images/Juan.png'
 
 
 function AboutMe() {

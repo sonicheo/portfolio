@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../../components/header/Header'
-import NavigationBar from '../../components/navigationBar/NavigationBar'
-import HomeParticles from '../../components/reactParticals/HomeParticles'
+import Header from '../../../components/header/Header'
+import NavigationBar from '../../../components/navigationBar/NavigationBar'
+import HomeParticles from '../../../components/reactParticals/HomeParticles'
 import style from './home.module.css'
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './technology.module.css'
 import DevIcon from 'devicon-react-svg'
-import {tech} from '../../helpers/tech'
+import {tech} from '../../../helpers/tech'
 
 function Technology() {
 
