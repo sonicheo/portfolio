@@ -52,6 +52,14 @@
 }
 
 
+@media screen and (max-width: 1150px) {
+    
+    .container{
+        height: 100%;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
     
     .tech_card{
