@@ -2,7 +2,7 @@
 
 
 .container{
-    height: 100vh;
+    height: 100%;
     padding-top: 20px;
     font-family: 'Skranji', cursive;
 }
@@ -54,7 +54,6 @@
 
 @media screen and (max-width: 600px) {
     .container{
-        height: 180vh;
         padding-left: 2%;
         padding-right: 2%;
     }
