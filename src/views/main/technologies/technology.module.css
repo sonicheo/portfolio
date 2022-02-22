@@ -51,3 +51,16 @@
     border-radius: 50%;
 }
 
+
+@media screen and (max-width: 600px) {
+    
+    .tech_card{
+        width: 8rem;
+        height: 4rem;
+    }
+
+    .tech_card span{
+        font-size: 1rem;
+    }
+
+}
