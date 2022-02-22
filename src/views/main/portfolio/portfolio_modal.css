@@ -17,3 +17,19 @@
 .modal img{
     width: 25rem;
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+    
+    .modal img{
+        width: 20rem;
+    }
+
+    .modal-footer p, a{
+        font-size: .7rem;
+    }
+
+}

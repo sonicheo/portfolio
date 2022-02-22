@@ -6,7 +6,7 @@ import juanImage from '../../../images/Juan.png'
 function AboutMe() {
   return (
     <div className={style.container} id="about_me" >
-        <div  >
+        <div className={style.imageContainer}  >
           <img src={juanImage} alt="Juan" />
         </div>
         <div className={style.textContainer} >

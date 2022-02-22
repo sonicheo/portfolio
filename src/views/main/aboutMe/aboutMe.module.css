@@ -33,3 +33,25 @@
     font-size: 1.5rem;
     background-color: #212529;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .imageContainer{
+        width: 10rem;
+    }
+
+    .textContainer{
+        max-width: 380px;
+    }
+
+    .textContainer h1{
+        font-size: 2rem;
+    }
+    
+    .textContainer p{
+        font-size: 1rem;
+    }
+}
